@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5dcc3; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.recipe-image {
+  width: 100%;
+  display: block;
+  height: auto;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+
+.card-content {
+  background-color: #fff7fc;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  margin-bottom: 2rem;
+   
+}
+.Recipe-card {
+  background-color: #fff7fc;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  margin-bottom: 2rem;
+  width: 90rem;
+}
+
+/* Headings and text */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #854632;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  color: #5f574e;
+}
+
+/* Ordered and unordered lists */
+ul, ol {
+  margin-left: 1.5rem;
+  color: #5f574e;
+  line-height: 1.6;
+}
+
+ul li::marker,
+ol li::marker {
+  color: #813720;
+}
+
+.prep-time {
+  background-color: #fff7fc;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.prep-time h2 {
+  font-size: 1.1rem;
+  color: #7b284f;
+  margin-bottom: 0.75rem;
+}
+
+/* Table for nutrition facts */
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table td {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #974545;
+}
